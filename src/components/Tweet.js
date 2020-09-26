@@ -19,4 +19,4 @@ function mapStateToProps({authedUser, users, tweets}, { id }) {
     }
 }
 
-export default connect()(Tweet)
+export default connect(mapStateToProps)(Tweet)
