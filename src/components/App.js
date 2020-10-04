@@ -8,7 +8,7 @@ import NewTweet from './NewTweet'
 import TweetPage from './TweetPage'
 import Nav from './Nav'
 
-
+//TODO: Setup UI
 class App extends Component {
   componentDidMount() {
     this.props.dispatch(handleInitialData())
